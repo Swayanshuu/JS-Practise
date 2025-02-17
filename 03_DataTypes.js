@@ -20,4 +20,30 @@ console.table ([name,age,boolean,ch])
 console.log (typeof age)
 console.log(typeof name)
 
-// so generally 'let' use as multiple data type 
+// so generally 'let' use as multiple data type
+
+//if we want a variable of integers only then ..
+let score;
+let valueInNumber = Number(score)
+console.log(typeof valueInNumber);
+console.log(valueInNumber) //NaN
+
+//if score = null..
+
+score = null //0 as assign to 'Number'
+let s = Number(score)
+console.log(typeof s)
+console.log(s)
+
+let someNumber = 33
+let stringNumber = String(someNumber)
+console.log(stringNumber) // shows 33
+console.log(typeof stringNumber)//shows String type
+
+
+/*conversion is like
+"33" = 33
+33ABC = NaN
+true =1 
+false = 0
+*/
